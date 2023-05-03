@@ -1,0 +1,42 @@
+/* h1, h2, h3, h4, h5, h6, p, button, img, div, section{
+    margin: 0;
+    padding: 0;
+} */
+img{
+    vertical-align: top;
+}
+
+.section_ss{
+    display: flex;
+    padding: 30px 58px; /* padding-top, bottom 30px은 임의로 설정한 값 */
+}
+
+.info{
+    margin-right: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info_ss{
+    width: 640px;
+}
+
+.btn_ss{
+    margin-top: 65px;
+    width: 140px;
+    height: 40.36px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 1px solid #BBA288;
+}
+
+/* @media(max-width: 1057px){
+    img{
+        max-width: calc(100% - 80px);
+    }
+
+    .section_ss{
+        flex-direction: column;
+        padding: 30px 58px;
+    }
+} */
