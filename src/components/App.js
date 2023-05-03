@@ -1,6 +1,9 @@
+import Main_ss from './main_ss'
+
 function App() {
   return (
-    <>Hello world</>
+    // <h1>Hello world</h1>
+    <Main_ss />
   );
 }
 
