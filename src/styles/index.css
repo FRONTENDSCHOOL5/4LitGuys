@@ -1,9 +1,6 @@
-/* h1, h2, h3, h4, h5, h6, p, button, img, div, section{
-    margin: 0;
-    padding: 0;
-} */
 img{
     vertical-align: top;
+    max-width: 100%;
 }
 
 .section_ss{
@@ -19,7 +16,7 @@ img{
 }
 
 .info_ss{
-    width: 640px;
+    max-width: 640px;
 }
 
 .btn_ss{
@@ -30,13 +27,13 @@ img{
     border: 1px solid #BBA288;
 }
 
-/* @media(max-width: 1057px){
-    img{
-        max-width: calc(100% - 80px);
-    }
-
+@media(max-width: 1057px){
     .section_ss{
         flex-direction: column;
         padding: 30px 58px;
     }
-} */
+
+    .info{
+        margin-bottom: 30px;
+    }
+}
