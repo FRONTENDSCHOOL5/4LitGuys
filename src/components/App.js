@@ -1,9 +1,12 @@
-import Main_ss from './main_ss'
+import Collection from "./CollectionPart";
+import Main_ss from "./main_ss";
 
 function App() {
   return (
-    // <h1>Hello world</h1>
-    <Main_ss />
+    <>
+      <Main_ss />
+      <Collection />
+    </>
   );
 }
 
