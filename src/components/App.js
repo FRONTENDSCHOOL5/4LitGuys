@@ -10,7 +10,7 @@
 // }
 import Header from "./Header"
 import Footer from "./Footer"
-import Main_ss from "./main_ss";
+import Main_ss from "./MainSs";
 import Collection from "./CollectionPart";
 import Simon from "./Simon";
 

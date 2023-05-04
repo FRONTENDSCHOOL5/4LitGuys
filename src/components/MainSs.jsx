@@ -7,7 +7,7 @@ function Main_ss() {
                 <button type="button" className="btn_ss">SHOP</button>
             </div>
             <div className="image">
-                <img src={require("../image/main_collection1.png")}  alt='test-img' />
+                <img src="/images/main_collection1.png"  alt='test-img' />
             </div>
         </section>
     );
