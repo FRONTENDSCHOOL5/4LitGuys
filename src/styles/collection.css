@@ -1,0 +1,21 @@
+.collectionWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:895px;
+    margin-right: 55px;
+    margin-left: auto;
+}
+
+.collection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic{
+    width: 420px;
+    height: 550px;
+    background-image: url('/public/images/picture.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
