@@ -27,7 +27,7 @@ img{
     border: 1px solid #BBA288;
 }
 
-@media(max-width: 1057px){
+@media(max-width: 1057px){ /* 반응형 max-width는 미정이라 임의값 넣어서 작성 */
     .section_ss{
         flex-direction: column;
         padding: 30px 58px;

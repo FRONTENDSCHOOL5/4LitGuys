@@ -1,9 +1,8 @@
-
 function Footer() {
     return (
         <section className="section_footer">
             <div className="footerLeft">
-                <img src="/./../src/image/main_logo_black.png" alt="자크뮈스로고" class="blackLogo"/>
+                <img src={require("../image/main_logo_black.png")} alt="자크뮈스로고" class="blackLogo"/>
                 <ul class="snsList">
                     <li>facebook</li>
                     <li>instagram</li>

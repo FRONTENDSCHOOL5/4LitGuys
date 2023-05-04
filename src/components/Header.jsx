@@ -3,7 +3,7 @@ function Header() {
         <section className="section_header">
             <div className="headerTop">
                 <p className="headerMenu">Shop</p>
-                <h1> <img src="/4LitGuys/src/image/main_logo_white.png" alt="자크뮈스로고" />  </h1>
+                <h1> <img src={require("../image/main_logo_white.png")} alt="자크뮈스로고" />  </h1>
                 <p className="headerBag">Bag</p>
             </div>
             <div className="headerText">
