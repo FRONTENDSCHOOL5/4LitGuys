@@ -1,4 +1,6 @@
-function Main_ss() {
+import '../styles/mainss.css'
+
+function MainSs() {
     return (
         // <h1>Hello world</h1>
         <section className="section_ss">
@@ -13,4 +15,4 @@ function Main_ss() {
     );
 }
 
-export default Main_ss;
+export default MainSs;
