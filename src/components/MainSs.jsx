@@ -1,4 +1,4 @@
-import '../styles/mainss.css'
+import '../styles/mainss.css';
 
 function MainSs() {
     return (
