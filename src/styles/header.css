@@ -1,0 +1,88 @@
+/*reset*/
+h1,h2,h3,h4,ul,li,div,p,body,img,section{
+    margin: 0;
+    padding: 0;
+}
+
+/*header 영역 시작*/
+.sectionHeader{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.mainVisual{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headerWrap{
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-left: -10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headerTop{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.headerMenu{
+    height: 50px;
+    line-height: 50px;
+}
+
+.mainMenuBar{
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+.headerBag span{
+    border: 1px solid white;
+    padding: 1px 6px;
+    border-radius: 50%;
+}
+
+/* 메인비주얼 텍스트 부분*/
+.headerText{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 100%;
+    top: 400px;
+}
+
+.headerText p{
+    font-size: 16px;
+}
+
+.headerText h2{
+    font-size: 55px;
+    line-height: 55px;
+    margin-top: 15px;
+}
+
+
+.whiteBtn{
+    background-color: transparent;
+    color: #fff;
+    border: 0.5px solid #fff;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+.whiteBtn:hover{
+    opacity: 0.5;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -ms-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+}

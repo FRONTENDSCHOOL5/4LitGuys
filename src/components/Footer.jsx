@@ -1,8 +1,10 @@
+import '../styles/footer.css'
+
 function Footer() {
     return (
-        <section className="section_footer">
+        <section className="sectionFooter">
             <div className="footerLeft">
-                <img src={require("../image/main_logo_black.png")} alt="자크뮈스로고" class="blackLogo"/>
+                <img src="/images/main_logo_black.png"  alt="자크뮈스로고" class="blackLogo"/>
                 <ul class="snsList">
                     <li>facebook</li>
                     <li>instagram</li>
