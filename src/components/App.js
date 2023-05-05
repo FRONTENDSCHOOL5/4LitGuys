@@ -13,11 +13,13 @@ import Footer from "./Footer"
 import Main_ss from "./MainSs";
 import Collection from "./CollectionPart";
 import Simon from "./Simon";
+import Slider from "./Slider";
 
 function App() {
   return (
     <>
       <Header />
+      <Slider />
       <Main_ss />
       <Collection />
       <Simon />

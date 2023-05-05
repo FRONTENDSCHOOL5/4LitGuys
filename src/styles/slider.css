@@ -1,0 +1,21 @@
+.sliderCard {
+  /* box-shadow: 0 0 10px red; */
+  max-width: 343px;
+}
+h4 {
+  font-weight: inherit;
+  font-size: 1.5625rem;
+}
+.sliderImg{
+  max-width: 100%;
+  padding: 10px 0;
+}
+.cardName {
+  position: relative;
+}
+.price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: gray;
+}
