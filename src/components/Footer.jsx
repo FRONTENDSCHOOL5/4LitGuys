@@ -3,25 +3,30 @@ import '../styles/footer.css'
 function Footer() {
     return (
         <section className="sectionFooter">
-            <div className="footerLeft">
-                <img src="/images/main_logo_black.png"  alt="자크뮈스로고" class="blackLogo"/>
-                <ul class="snsList">
-                    <li>facebook</li>
-                    <li>instagram</li>
-                    <li>twitter </li>
-                </ul>
+            <div className='footerWrap'>
+                <div className="footerLeft">
+                    <a href="#none">
+                        <img className='blackLogo' src="/images/main_logo_black.png"  alt="자크뮈스로고" class="blackLogo"/>
+                    </a>
+                    <ul class="snsList">
+                        <li><a href="#none"> facebook</a></li>
+                        <li><a href="#none"> instagram</a></li>
+                        <li><a href="#none"> twitter </a></li>
+                    </ul>
+                </div>
+                <div className="footerRight">
+                    <ul className="brandLegal">
+                        <li><a href="#none"> Legal and cookies</a></li>
+                        <li><a href="#none"> Assistance</a></li>
+                        <li><a href="#none"> Company</a></li>
+                        <li><a href="#none"> Refunds</a></li>
+                        <li><a href="#none"> Shipping</a></li>
+                        <li><a href="#none"> Terms of service</a></li>
+                    </ul>
+                    <p className="footerCopy">© JACQUEMUS 2021-70boutique@jacquemus.com .Custormer service. </p>
+                </div>            
+
             </div>
-            <div className="footerRight">
-                <ul className="brandLegal">
-                    <li>Legal and cookies</li>
-                    <li>Assistance</li>
-                    <li>Company</li>
-                    <li>Refunds</li>
-                    <li>Shipping</li>
-                    <li>Terms of service</li>
-                </ul>
-                <p className="footerCopy">© JACQUEMUS 2021-70boutique@jacquemus.com .Custormer service. </p>
-            </div>            
         </section>
     );
 }

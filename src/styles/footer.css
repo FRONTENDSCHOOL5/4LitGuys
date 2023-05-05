@@ -1,12 +1,48 @@
-/*reset*/
-h1,h2,h3,h4,ul,li,div,p,body,img,section{
-    margin: 0;
-    padding: 0;
-}
-
-ul,li{
-    list-style: none;
-}
-
 .sectionFooter{
+    border-top: 1px solid #b4b4b4;
+    padding: 77px 0;
+}
+
+.footerWrap{
+    width: 90%;
+    margin: 0 auto;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.snsList{
+    display: flex;    
+}
+
+.snsList li{
+    margin-right: 20px;
+    font-size: 1.125rem;
+}
+
+.footerRight{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.brandLegal{
+    display: flex;
+}
+
+.brandLegal li{
+    margin-right: 25px;
+    margin-bottom: 67px;
+}
+
+.footerCopy{
+    font-size: 1rem;
 }
