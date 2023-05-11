@@ -1,3 +1,7 @@
+h4{
+    margin-bottom: 23px;
+}
+
 img{
     vertical-align: top;
     max-width: 100%;
@@ -5,11 +9,12 @@ img{
 
 .section_ss{
     display: flex;
-    padding: 30px 58px; /* padding-top, bottom 30px은 임의로 설정한 값 */
+    margin: 215px 50px 60px 43px;
+    gap: 98px;
+    /* padding: 30px 60px; padding-top, bottom 30px은 임의로 설정한 값 */
 }
 
 .info{
-    margin-right: 102px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -30,7 +35,7 @@ img{
 @media(max-width: 1057px){ /* 반응형 max-width는 미정이라 임의값 넣어서 작성 */
     .section_ss{
         flex-direction: column;
-        padding: 30px 58px;
+
     }
 
     .info{
