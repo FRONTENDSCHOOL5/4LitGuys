@@ -1,11 +1,13 @@
-
 .sectionHeader{
     text-align: center;
     color: #ffffff;
 }
 
 .headerWrap{
-    background-color: #ebebeb;
+    position: fixed;
+    z-index: 100;
+    background: none;
+    /* background-color: #ebebeb; */
     width: 95%;
     margin: 0 auto;
     padding: 21px 0;

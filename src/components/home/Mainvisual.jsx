@@ -1,4 +1,4 @@
-import '../styles/mainvisual.css'
+import './mainvisual.css'
 
 function Mainvisual() {
     return (        

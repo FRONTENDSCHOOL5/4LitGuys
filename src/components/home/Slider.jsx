@@ -1,5 +1,5 @@
-import '../styles/reset.css'
-import '../styles/slider.css';
+import '../../styles/reset.css'
+import './slider.css';
 
 function Slider() {
   return (

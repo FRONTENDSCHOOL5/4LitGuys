@@ -1,4 +1,4 @@
-import '../styles/collection.css'
+import './collection.css'
 
 const Collection = () => {
   return (

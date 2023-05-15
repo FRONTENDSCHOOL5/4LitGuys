@@ -1,4 +1,4 @@
-import '../styles/simon.css'
+import './simon.css'
 
 const Simon = () => {
     return (

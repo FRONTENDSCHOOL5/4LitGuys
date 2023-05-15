@@ -1,5 +1,5 @@
-import '../styles/reset.css';
-import '../styles/mainss.css';
+import '../../styles/reset.css';
+import './mainss.css';
 
 function MainSs() {
     return (
