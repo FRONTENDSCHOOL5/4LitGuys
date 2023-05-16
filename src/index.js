@@ -16,9 +16,9 @@ root.render(
         <Header />
         <Routes>
             <Route path='/' element={<App />}></Route>
-            <Route path='/about' element={<About/>}></Route>
-            <Route path='/collection' element={<Collection/>}></Route>
-            <Route path='/item-list' element={<ItemList/>}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/collection' element={<Collection />}></Route>
+            <Route path='/item-list' element={<ItemList />}></Route>
         </Routes>
         <Footer />
     </BrowserRouter>

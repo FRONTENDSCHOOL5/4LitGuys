@@ -1,21 +1,58 @@
+.sliderWrap{
+margin-top: 170px;
+}
+
+.cardTitle{
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: center;
+}
+
+.cardWrap {
+  /* box-shadow: 0 0 10px blue; */
+  margin: 80px 60px 0;
+  display: flex;
+  gap: 1.5625rem;
+}
+
 .sliderCard {
   /* box-shadow: 0 0 10px red; */
-  max-width: 343px;
+  flex: 1;
 }
+
 h4 {
   font-weight: inherit;
-  font-size: 1.5625rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 21px;
+  margin: 0;
+  /* 왜 mainss 마진이 여기 적용되지*/
 }
-.sliderImg{
-  max-width: 100%;
-  padding: 10px 0;
-}
-.cardName {
+
+figure {
+  margin: 0;
   position: relative;
 }
+
+figure figcaption{
+  width: 142px;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.sliderImg {
+  max-width: 100%;
+  padding: 12px 0 9px 0;
+}
+
 .price {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 22.75rem;
+  right: .125rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 20px;
   color: gray;
 }
