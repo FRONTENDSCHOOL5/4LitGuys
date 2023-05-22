@@ -1,0 +1,35 @@
+.contain{
+    padding: 0px 197px;
+}
+
+header{
+    padding-top: 290px;  
+}
+
+header h1{
+    font-size: 48px;
+}
+
+header p{
+    max-width: 571px;
+    margin: 68px 0px 38px;
+}
+
+.itemListContainer{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.itemBox{
+    margin-bottom: 151px;
+}
+
+.Buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
