@@ -61,7 +61,7 @@ function Slider(props) {
           <article
             className="sliderCard"
             key={item.id}
-            // style={getImgPosition(index)}
+            // style={gegitImgPosition(index)}
           >
             <h4>{item.title}</h4>
             <figure>

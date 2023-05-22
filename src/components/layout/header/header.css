@@ -1,6 +1,5 @@
 .sectionHeader{
     text-align: center;
-    color: #ffffff;
 }
 
 .headerWrap{
@@ -10,10 +9,13 @@
     /* background-color: #ebebeb; */
     width: 95%;
     margin: 0 auto;
-    padding: 21px 0;
+    left: 0;
+    right: 0;
+    padding: 21px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
 }
 
 .headerMenu{
@@ -40,4 +42,11 @@
     border: 1px solid white;
     padding: 1px 6px;
     border-radius: 50%;
+}
+
+.sectionHeader ul{
+    border: 10px solid red;
+    width: 500px;
+    height: 500px;
+
 }
