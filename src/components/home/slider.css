@@ -19,6 +19,7 @@ margin-top: 170px;
 .sliderCard {
   /* box-shadow: 0 0 10px red; */
   flex: 1;
+  overflow: hidden;
 }
 
 h4 {
@@ -45,6 +46,7 @@ figure figcaption{
 .sliderImg {
   max-width: 100%;
   padding: 12px 0 9px 0;
+  transition: transform 0,5s ease;
 }
 
 .price {
@@ -56,3 +58,9 @@ figure figcaption{
   line-height: 20px;
   color: gray;
 }
+
+figure .firstImg:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
