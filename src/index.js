@@ -10,6 +10,8 @@ import About from './components/about';
 import Collection from './components/collection';
 import ItemList from './components/itemList';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
